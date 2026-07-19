@@ -1,0 +1,26 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Hero Section */
+.hero {
+    height: 80vh;
+    background: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836') no-repeat center;
+    background-size: cover;
+}
+
+/* Food Cards */
+.food-card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.food-card {
+    transition: 0.3s;
+}
+
+.food-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
